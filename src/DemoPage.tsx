@@ -25,7 +25,7 @@ const couleurs = ["Blanc", "Ivoire"];
 const controles = ["Gauche", "Droite"];
 const fractions = ["0/8", "1/4", "1/2"];
 const moteurs = ["Somfy RTS", "Zigbee"];
-const cassettes = ["Open Roll", "Fascia 3""];
+const cassettes = ["Open Roll", "Fascia 3\""];
 
 export default function DemoPage() {
   const [client, setClient] = useState<Client>({
